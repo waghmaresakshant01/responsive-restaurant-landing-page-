@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paunchaar Family Restaurant | Authentic Indian Dining in Nagpur</title>
+    <meta name="description" content="Experience the finest authentic Indian cuisine at Paunchaar Family Restaurant, Nagpur. Handcrafted dishes, royal flavors, and warm hospitality.">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header id="mainHeader">
+        <div class="container nav-container">
+            <a href="#" class="logo">Paunchaar <span>✦</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">☰</div>
+        </div>
+    </header>
+
+    <!-- Mobile Nav -->
+    <div class="mobile-nav" id="mobileNav">
+        <button class="close-btn" id="closeNav">✕</button>
+        <a href="#home" class="mobile-link">Home</a>
+        <a href="#menu" class="mobile-link">Menu</a>
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#testimonials" class="mobile-link">Reviews</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <!-- Floating 3D spice elements -->
+        <div class="hero-float">🌶️</div>
+        <div class="hero-float">🍛</div>
+        <div class="hero-float">🌿</div>
+        <div class="hero-float">⭐</div>
+        <div class="hero-float">🔥</div>
+        <div class="hero-content">
+            <span class="hero-badge">✦ Est. 2010 · Nagpur ✦</span>
+            <h1 class="hero-title">Authentic Indian<br><em>Flavors & Soul</em></h1>
+            <p class="hero-desc">Where royal recipes meet modern ambiance. Every dish tells a story of tradition, passion, and the finest spices of India.</p>
+            <div class="hero-btns">
+                <a href="#menu" class="btn-primary">Explore Menu</a>
+                <a href="#contact" class="btn-outline">Reserve a Table</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item reveal">
+                    <span class="stat-number" data-target="15">0</span>
+                    <span class="stat-label">Years of Excellence</span>
+                </div>
+                <div class="stat-item reveal">
+                    <span class="stat-number" data-target="50000">0</span>
+                    <span class="stat-label">Happy Customers</span>
+                </div>
+                <div class="stat-item reveal">
+                    <span class="stat-number" data-target="120">0</span>
+                    <span class="stat-label">Signature Dishes</span>
+                </div>
+                <div class="stat-item reveal">
+                    <span class="stat-number" data-target="4">0</span>
+                    <span class="stat-label">Star Rating</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Special Offer Section -->
+    <section id="special-offer" class="special-offer section-padding">
+        <div class="container offer-container reveal">
+            <div class="offer-content">
+                <span class="offer-tag">🌟 Limited Time Offer</span>
+                <h2 class="offer-title">Unlimited Aamras Thali</h2>
+                <p class="offer-desc">Dive into the sweet, summery goodness of our authentic Maharashtrian Aamras. Paired with hot, puffed puris, savory sides, and traditional sweets — eat to your heart's content!</p>
+                <div class="offer-price">Only ₹399 <span>/ person</span></div>
+                <a href="#contact" class="btn-primary btn-glow">Claim Offer</a>
+            </div>
+            <div class="offer-img-wrap" data-tilt>
+                <div class="offer-img-glow"></div>
+                <img src="assets/images/aamras-thali.png" alt="Unlimited Aamras Thali">
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="tag">Our Specialties</span>
+                <h2>Curated Menu</h2>
+                <p>Handpicked dishes crafted with passion, the finest spices, and generations of culinary wisdom.</p>
+            </div>
+            <div class="glow-line reveal" style="max-width:120px; margin-bottom:60px;"></div>
+            <div class="menu-grid stagger">
+                <div class="menu-item reveal" data-tilt>
+                    <div class="menu-img-wrap">
+                        <img src="assets/images/misal-pav.png" alt="Misal Pav" class="menu-img">
+                    </div>
+                    <div class="menu-content">
+                        <div class="menu-title-row">
+                            <h3>Misal Pav</h3>
+                            <span class="menu-price">₹150</span>
+                        </div>
+                        <p class="menu-desc">Spicy sprouted moth bean curry topped with farsan, onions, and lemon, served with soft pav.</p>
+                    </div>
+                </div>
+                <div class="menu-item reveal" data-tilt>
+                    <div class="menu-img-wrap">
+                        <img src="assets/images/puran-poli.png" alt="Puran Poli" class="menu-img">
+                    </div>
+                    <div class="menu-content">
+                        <div class="menu-title-row">
+                            <h3>Puran Poli</h3>
+                            <span class="menu-price">₹120</span>
+                        </div>
+                        <p class="menu-desc">Sweet flatbread stuffed with a smooth blend of chana dal, jaggery, cardamom, and nutmeg.</p>
+                    </div>
+                </div>
+                <div class="menu-item reveal" data-tilt>
+                    <div class="menu-img-wrap">
+                        <img src="assets/images/vada-pav.png" alt="Vada Pav" class="menu-img">
+                    </div>
+                    <div class="menu-content">
+                        <div class="menu-title-row">
+                            <h3>Vada Pav</h3>
+                            <span class="menu-price">₹60</span>
+                        </div>
+                        <p class="menu-desc">Iconic street food featuring a deep-fried potato dumpling inside a bread bun with spicy chutneys.</p>
+                    </div>
+                </div>
+                <div class="menu-item reveal" data-tilt>
+                    <div class="menu-img-wrap">
+                        <img src="assets/images/sabudana-khichdi.png" alt="Sabudana Khichdi" class="menu-img">
+                    </div>
+                    <div class="menu-content">
+                        <div class="menu-title-row">
+                            <h3>Sabudana Khichdi</h3>
+                            <span class="menu-price">₹100</span>
+                        </div>
+                        <p class="menu-desc">Delightful tapioca pearls cooked with roasted peanuts, potatoes, green chilies, and cumin.</p>
+                    </div>
+                </div>
+                <div class="menu-item reveal" data-tilt>
+                    <div class="menu-img-wrap">
+                        <img src="assets/images/bharli-vangi.png" alt="Bharli Vangi" class="menu-img">
+                    </div>
+                    <div class="menu-content">
+                        <div class="menu-title-row">
+                            <h3>Bharli Vangi</h3>
+                            <span class="menu-price">₹220</span>
+                        </div>
+                        <p class="menu-desc">Baby eggplants stuffed with a rich mixture of coconut, peanuts, and traditional Goda masala.</p>
+                    </div>
+                </div>
+                <div class="menu-item reveal" data-tilt>
+                    <div class="menu-img-wrap">
+                        <img src="assets/images/zunka-bhakar.png" alt="Zunka Bhakar" class="menu-img">
+                    </div>
+                    <div class="menu-content">
+                        <div class="menu-title-row">
+                            <h3>Zunka Bhakar</h3>
+                            <span class="menu-price">₹180</span>
+                        </div>
+                        <p class="menu-desc">Traditional rustic dish of spicy gram flour served with jowar or bajra flatbread and raw onions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container about-flex">
+            <div class="about-img-wrap reveal-left">
+                <div class="about-img-inner">
+                    <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=1000&q=80" alt="Indian Spices">
+                </div>
+            </div>
+            <div class="about-text reveal-right">
+                <span class="tag">Our Story</span>
+                <h3>A Culinary Journey<br>Since 2010</h3>
+                <p>At Paunchaar, we bring the vibrant streets and royal kitchens of India straight to your table. Founded with a passion for authentic spices and traditional recipes.</p>
+                <p>Our philosophy: craft dishes with freshly ground spices, honor age-old techniques, and serve them in a warm, welcoming ambiance.</p>
+                <div class="about-features">
+                    <div class="about-feature">
+                        <div class="icon">🌿</div>
+                        <span>Farm Fresh</span>
+                    </div>
+                    <div class="about-feature">
+                        <div class="icon">👨‍🍳</div>
+                        <span>Master Chefs</span>
+                    </div>
+                    <div class="about-feature">
+                        <div class="icon">🔥</div>
+                        <span>Live Tandoor</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials section-padding">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="tag">What People Say</span>
+                <h2>Guest Reviews</h2>
+                <p>Hover to discover the full story behind each experience.</p>
+            </div>
+            <div class="test-grid stagger">
+                <div class="test-card-wrapper reveal">
+                    <div class="test-card">
+                        <div class="test-front">
+                            <div class="test-stars">★★★★★</div>
+                            <p class="test-quote">"The best butter chicken I've ever had. The flavors transport you to the streets of Old Delhi."</p>
+                            <span class="test-author">— Priya M.</span>
+                            <span class="flip-hint">↻ Hover to flip</span>
+                        </div>
+                        <div class="test-back">
+                            <span class="label">Full Review</span>
+                            <p>We visited Paunchaar for our anniversary and were blown away. The ambiance, the service, and the food were all impeccable. The live tandoor experience was magical. Will be coming back every month!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="test-card-wrapper reveal">
+                    <div class="test-card">
+                        <div class="test-front">
+                            <div class="test-stars">★★★★★</div>
+                            <p class="test-quote">"Authentic biryani with the perfect balance of spices. A true gem in Nagpur!"</p>
+                            <span class="test-author">— Rahul S.</span>
+                            <span class="flip-hint">↻ Hover to flip</span>
+                        </div>
+                        <div class="test-back">
+                            <span class="label">Full Review</span>
+                            <p>As someone from Hyderabad, I'm very particular about biryani. Paunchaar's version is hands down the most authentic I've found outside of Hyderabad. The dum cooking technique is spot on.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="test-card-wrapper reveal">
+                    <div class="test-card">
+                        <div class="test-front">
+                            <div class="test-stars">★★★★★</div>
+                            <p class="test-quote">"Family-friendly atmosphere with food that makes you feel at home. Absolutely wonderful."</p>
+                            <span class="test-author">— Anita K.</span>
+                            <span class="flip-hint">↻ Hover to flip</span>
+                        </div>
+                        <div class="test-back">
+                            <span class="label">Full Review</span>
+                            <p>We bring our kids here every weekend. The staff is so friendly and the paneer dishes are out of this world. The desserts — especially the gulab jamun — are the perfect way to end a meal.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation CTA -->
+    <section class="reservation">
+        <h2 class="reveal">Reserve Your Experience</h2>
+        <p class="reveal">Book a table and let us take you on an unforgettable culinary journey through the heart of India.</p>
+        <a href="tel:8468827254" class="btn-primary reveal">Call Now · 846-882-7254</a>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Paunchaar</h4>
+                    <p class="desc">Experience the perfect blend of authentic Indian flavors and vibrant street food culture in a modern, cozy setting.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="YouTube">▶️</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <p>📍 Near Dharampeth Square, Nagpur</p>
+                    <p>📞 8468827254</p>
+                    <p>✉️ hello@paunchaar.com</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Opening Hours</h4>
+                    <p>Mon – Fri: 11:00 AM – 10:00 PM</p>
+                    <p>Sat – Sun: 10:00 AM – 11:30 PM</p>
+                    <p>🎉 Special events available</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Paunchaar Family Restaurant. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
